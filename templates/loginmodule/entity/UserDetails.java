@@ -67,34 +67,14 @@ public class UserDetails {
 	 * @param password
 	 * @param type
 	 */
-	public UserDetails(int id, String firstName, String lastName, String fullname, String email, String username,
-			String password, String type) {
-		super();
-		this.userdetailsid = userdetailsid;
-		this.firstName = firstName;
-		this.lastName = lastName;
-		Fullname = fullname;
-		this.email = email;
-		this.username = username;
-		this.password = password;
-		this.type = type;
-	}
+	
 	/**
 	 * @param type the type to set
 	 */
 	public void setType(String type) {
 		this.type = type;
 	}
-	public UserDetails(String firstName,String lastName,String email,String password,String type) {
-		// TODO Auto-generated constructor stub
-		super();
-		this.firstName=firstName;
-		this.lastName=lastName;
-		this.email=email;
-		this.password=password;
-		this.type=type;
 	
-	}
 	/**
 	 * @param firstName
 	 * @param lastName
@@ -103,15 +83,7 @@ public class UserDetails {
 	 * @param password
 	 * @param type
 	 */
-	public UserDetails(String firstName, String lastName, String fullname, String email, String password, String type) {
-		super();
-		this.firstName = firstName;
-		this.lastName = lastName;
-		Fullname = fullname;
-		this.email = email;
-		this.password = password;
-		this.type = type;
-	}
+	
 	public UserDetails()
 	{
 		

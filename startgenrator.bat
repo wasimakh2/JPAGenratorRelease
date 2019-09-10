@@ -1,1 +1,2 @@
 java -jar JPAGenrator-0.0.1-SNAPSHOT.war
+pause
